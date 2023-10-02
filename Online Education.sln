@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineEdu", "WindowsFormsApp5\OnlineEdu.csproj", "{44988888-CF2E-4D72-A997-7F44B4EEFBBB}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Assistant", "Assistant\Assistant.vdproj", "{6BD55D15-F596-43FD-823A-5AAB94B17018}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44988888-CF2E-4D72-A997-7F44B4EEFBBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44988888-CF2E-4D72-A997-7F44B4EEFBBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44988888-CF2E-4D72-A997-7F44B4EEFBBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44988888-CF2E-4D72-A997-7F44B4EEFBBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BD55D15-F596-43FD-823A-5AAB94B17018}.Debug|Any CPU.ActiveCfg = Debug
+		{6BD55D15-F596-43FD-823A-5AAB94B17018}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48A3E587-7C2F-4B21-8B09-A16AAA69E6F6}
+	EndGlobalSection
+EndGlobal

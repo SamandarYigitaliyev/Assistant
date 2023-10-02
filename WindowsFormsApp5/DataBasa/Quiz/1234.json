@@ -1,0 +1,22 @@
+[
+  {
+    "QuizName": "1234",
+    "Question": "sasad",
+    "Option1": "adda",
+    "Option2": "da",
+    "Option3": "dada",
+    "Option4": "asdsf",
+    "Answer": "B",
+    "Order": 1
+  },
+  {
+    "QuizName": "1234",
+    "Question": "reewt",
+    "Option1": "ertret",
+    "Option2": "reew",
+    "Option3": "qet4wt",
+    "Option4": "twret",
+    "Answer": "B",
+    "Order": 2
+  }
+]
