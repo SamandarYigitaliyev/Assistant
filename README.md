@@ -1,8 +1,6 @@
 # Kirish
 
-![image](https://github.com/SamandarYigitaliyev/Assistant/assets/121451433/ec3abd02-f0c6-4743-9b64-755932553907)
-
-![image](https://github.com/SamandarYigitaliyev/Assistant/assets/121451433/d411f2d1-f851-4d32-b312-a958b95d166e)
+![image](https://github.com/SamandarYigitaliyev/Assistant/assets/121451433/ec3abd02-f0c6-4743-9b64-755932553907) ![image](https://github.com/SamandarYigitaliyev/Assistant/assets/121451433/d411f2d1-f851-4d32-b312-a958b95d166e)
 
 #Login 
 
