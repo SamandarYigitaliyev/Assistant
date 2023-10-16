@@ -1,4 +1,6 @@
-# Kirish
+The main purpose of this project is to help the Teachers. That is, in this program, teachers can easily create a test. Pupils start working on the prepared tests. After the test is completed, the student's score will be displayed. In the teacher's section, the students are ranked according to the score
+
+# Started 
 
 ![image](https://github.com/SamandarYigitaliyev/Assistant/assets/121451433/ec3abd02-f0c6-4743-9b64-755932553907) ![image](https://github.com/SamandarYigitaliyev/Assistant/assets/121451433/d411f2d1-f851-4d32-b312-a958b95d166e)
 
