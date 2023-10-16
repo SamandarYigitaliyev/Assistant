@@ -44,6 +44,11 @@
 
 ![image](https://github.com/SamandarYigitaliyev/Assistant/assets/121451433/598a0479-f4b2-40d4-8f30-493aad6ba99d)
 
+# Sort 
+
+![image](https://github.com/SamandarYigitaliyev/Assistant/assets/121451433/d88d8db7-8266-45c0-9e5b-43ec1c21bdae)
+
+
 
 
 
