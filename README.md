@@ -28,6 +28,28 @@
 
 ![image](https://github.com/SamandarYigitaliyev/Assistant/assets/121451433/f9d52532-fd05-468a-9fee-f81a010f5e7e)
 
+#Student Window
+
+![image](https://github.com/SamandarYigitaliyev/Assistant/assets/121451433/d4b985c9-b738-499f-95d3-573106eafbb3)
+
+#Start Test 
+
+![image](https://github.com/SamandarYigitaliyev/Assistant/assets/121451433/62b43e87-f921-44d6-869f-21606048aaa3)
+
+#The End Test 
+
+![image](https://github.com/SamandarYigitaliyev/Assistant/assets/121451433/3dda29f8-0f06-4316-8651-e29bac26400c)
+
+#Result
+
+![image](https://github.com/SamandarYigitaliyev/Assistant/assets/121451433/598a0479-f4b2-40d4-8f30-493aad6ba99d)
+
+
+
+
+
+
+
 
 
 
