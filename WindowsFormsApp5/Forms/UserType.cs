@@ -34,6 +34,8 @@ namespace WindowsFormsApp5.Forms
             string path = Path.Combine(BasePath, "User.txt");
             File.WriteAllText(path, page);
             selectt= true;
+            TeacherForm user = new TeacherForm();
+            user.ShowDialog();
             this.Close();
         }
 

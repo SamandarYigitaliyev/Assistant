@@ -54,5 +54,12 @@
     "Password": "a",
     "QuizName": "fdgdd100%",
     "Result": "0%"
+  },
+  {
+    "Name": "Samandar",
+    "Email": "sa@gmail.com",
+    "Password": "1234",
+    "QuizName": "DemoTest",
+    "Result": "100%"
   }
 ]

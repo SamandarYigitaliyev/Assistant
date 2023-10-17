@@ -56,60 +56,63 @@ namespace WindowsFormsApp5.Forms
 
             if (txt == "O'quvchi")
             {
-                string BasePath = Paths.UsersFullPath;
-                string[] files = Directory.GetFiles(BasePath);
-                foreach (var file in files)
-                {
-                    FileInfo fileInfo = new FileInfo(file);
-                    if (fileInfo.Name == "StudentInformation.json")
-                    {
-                        string json = File.ReadAllText(file);
-                        var students = JsonConvert.DeserializeObject<List<SignUp>>(json);
-                        int Index = 0;
-                        foreach (var student in students)
-                        {
+                Student student1 = new Student();
+                this.Hide();
+                student1.ShowDialog();
+              
+                //string BasePath = Paths.UsersFullPath;
+                //string[] files = Directory.GetFiles(BasePath);
 
-                            if (student.FirstName == txtSignInStudentName.Text && student.Password == txtSignInStudentPassword.Text &&
-                               student.Email == txtSignInStudentEmail.Text)
-                            {
+                //foreach (var file in files)
+                //{
+                //    FileInfo fileInfo = new FileInfo(file);
+                //    if (fileInfo.Name == "StudentInformation.json")
+                //    {
+                //        string json = File.ReadAllText(file);
+                //        var students = JsonConvert.DeserializeObject<List<SignUp>>(json);
+                //        int Index = 0;
+                //        foreach (var student in students)
+                //        {
 
-                                File.Delete(strin[0]);
+                //            if (student.FirstName == txtSignInStudentName.Text && student.Password == txtSignInStudentPassword.Text &&
+                //               student.Email == txtSignInStudentEmail.Text)
+                //            {
 
-                                string _sBasePath = Paths.StudentResults;
-                                string _name = "natija.txt";
-                                string path = Path.Combine(_sBasePath,_name);
+                //                File.Delete(strin[0]);
 
-                                File.WriteAllText(path, txtSignInStudentName.Text+"\n");
-                                File.AppendAllText(path,txtSignInStudentEmail.Text+"\n");
-                                File.AppendAllText(path,txtSignInStudentPassword.Text + "\n");
+                //                string _sBasePath = Paths.StudentResults;
+                //                string _name = "natija.txt";
+                //                string path = Path.Combine(_sBasePath,_name);
 
-                                txtSignInStudentEmail.Clear();
-                                txtSignInStudentPassword.Clear();
-                                txtSignInStudentName.Clear();
- 
-                                this.Hide();
-                                Student student1 = new Student();
-                                student1.Show();
+                //                File.WriteAllText(path, txtSignInStudentName.Text+"\n");
+                //                File.AppendAllText(path,txtSignInStudentEmail.Text+"\n");
+                //                File.AppendAllText(path,txtSignInStudentPassword.Text + "\n");
+
+                //                txtSignInStudentEmail.Clear();
+                //                txtSignInStudentPassword.Clear();
+                //                txtSignInStudentName.Clear();
 
 
-                            }
-                            else
-                            {
-                                Index++;
 
-                            }
 
-                        }
-                        if (students.Count == Index)
-                        {
-                            MessageBox.Show("Bunday foydalanuvchi malmotlari mavjud emas!!! Ro'yxatdan o'tish tugmasini bosing", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                            txtSignInStudentEmail.Clear();
-                            txtSignInStudentPassword.Clear();
-                            txtSignInStudentName.Clear();
-                        }
-                    }
+                //            }
+                //            else
+                //            {
+                //                Index++;
 
-                }
+                //            }
+
+                //        }
+                //        if (students.Count == Index)
+                //        {
+                //            MessageBox.Show("Bunday foydalanuvchi malmotlari mavjud emas!!! Ro'yxatdan o'tish tugmasini bosing", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                //            txtSignInStudentEmail.Clear();
+                //            txtSignInStudentPassword.Clear();
+                //            txtSignInStudentName.Clear();
+                //        }
+                //    }
+
+                //}
             }
             else if (txt == "O'qituvchi")
             {
@@ -134,8 +137,8 @@ namespace WindowsFormsApp5.Forms
 
                                 File.Delete(strin[0]);
                                 TeacherForm form = new TeacherForm();
-                                this.Hide();
                                 form.Show();
+                                this.Hide();
 
 
 

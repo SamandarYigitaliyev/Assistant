@@ -1,0 +1,32 @@
+[
+  {
+    "QuizName": "DemoTest",
+    "Question": "Test yaratishni hohlaysizmi :)",
+    "Option1": "Ha",
+    "Option2": "Bilmadim",
+    "Option3": "Yoq",
+    "Option4": "Keyinroq",
+    "Answer": "A",
+    "Order": 1
+  },
+  {
+    "QuizName": "DemoTest",
+    "Question": "Men kecha nechchida uxladim ?",
+    "Option1": "17:00",
+    "Option2": "18:00",
+    "Option3": "21:00",
+    "Option4": "00:00",
+    "Answer": "B",
+    "Order": 2
+  },
+  {
+    "QuizName": "DemoTest",
+    "Question": "Qalesan ",
+    "Option1": "zo'r",
+    "Option2": "bilmadim",
+    "Option3": "ok",
+    "Option4": "yaxshi",
+    "Answer": "C",
+    "Order": 3
+  }
+]
